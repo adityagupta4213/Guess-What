@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.adityajgupta.guesswhat" version="0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Guess What</name>
+    <description>
+        A simple word guessing app currently in alpha phase.
+    </description>
+    <author email="adityagupta4213@gmail.com" href="http://www.technicalism.wordpress.com/">
+      Aditya J Gupta
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+</widget>
