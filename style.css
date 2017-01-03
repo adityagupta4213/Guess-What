@@ -1,0 +1,17 @@
+body{
+	text-align: center;
+	margin:20% 25%;
+	background-color: teal;
+	color:#ffffff;
+}
+input#user-input{
+	width:50%;
+	font-size: 2rem;
+	font-weight: lighter;
+}
+a.btn{
+	font-size: 1.5rem;
+}
+div.modal{
+	color:#222222;
+}
