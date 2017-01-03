@@ -12,7 +12,6 @@
 */
 
 "use strict";
-
 var word_list=["Apple",
 			   "Aeroplane",
 			   "Banana",
@@ -69,18 +68,24 @@ var user_word;
 var random_index;
 var random_word;
 var first_letter;
+/* The function get a random word from the world list*/
+function generateWord(){
 
-function getRandomNumber(){
-   	return Math.floor(Math.random()*word_list.length);
+	function getRandomNumber(){
+   		return Math.floor(Math.random()*word_list.length);
+	}
+
+	random_index=getRandomNumber();
+	random_word=word_list[random_index];	
 }
-
-random_index=getRandomNumber();
-random_word=word_list[random_index];
-
-first_letter=random_word.split("");											//Get the first letter of the random word as a hint.
+/* The function calls the generateWord function and gets the generated word's first letter*/
 function getHint(){
+	generateWord();
+	first_letter=random_word.split("");	
 	document.getElementById('hint').innerHTML="Hint: "+first_letter[0];			//Set the hint
 }
+
+/*As obvious, it checks the word against the user input*/
 function checkWord(){
 	user_word=document.getElementById('user-input').value;
 	if (random_word===user_word){
@@ -99,5 +104,5 @@ function checkWord(){
 	console.log(random_index);
 	console.log(random_word)
 	console.log(user_word);
+	console.log(first_letter[0]);
 }
-
