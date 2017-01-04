@@ -8,6 +8,7 @@ input#user-input{
 	width:50%;
 	font-size: 2rem;
 	font-weight: lighter;
+	text-align: center;
 }
 a.btn{
 	font-size: 1.5rem;
