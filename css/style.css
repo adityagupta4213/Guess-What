@@ -1,10 +1,10 @@
 body{
-	text-align: center;
-	margin:20% 25%;
+	text-align: center;	
 	background-color: teal;
 	color:#ffffff;
 }
 input#user-input{
+	margin-top: 20%;
 	width:50%;
 	font-size: 2rem;
 	font-weight: lighter;
@@ -15,4 +15,13 @@ a.btn{
 }
 div.modal{
 	color:#222222;
+}
+span.menu-icon{
+    display: block;
+    width:2rem;
+    height:0.25rem;
+    background-color: #fff;
+    border:1px solid white;
+    border-radius: 5px;
+    margin:0.3rem;
 }

@@ -8,6 +8,14 @@
 	<title></title>
 </head>
 <body>
+<ul id="slide-out" class="side-nav">
+  <li><a href="about.html">About</a></li>
+</ul>
+<a href="#" data-activates="slide-out" class="button-collapse" style="">
+  <span class="menu-icon" style="margin-top:0.5rem;"></span>
+  <span class="menu-icon"></span>
+  <span class="menu-icon"></span>
+</a>
 	<div class="input-field">
 		<input type="text" id="user-input" onfocus="if(this.value!=='') this.value=''; getHint();"/>		<!-- Clear the input field on new input -->
 		<br>
@@ -29,6 +37,7 @@
   </div>
   <script type="text/javascript" src="js/jquery-min.js"></script> 
   <script type="text/javascript" src="js/materialize.js"></script>
+  <script type="text/javascript" src="js/slide-out-menu.js"></script>
   <script type="text/javascript" src="js/word_gen.js"></script>
 </body>
 </html>
